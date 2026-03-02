@@ -23,6 +23,7 @@
 
 <p align="center">
   <a href="#-the-story">The Story</a> •
+  <a href="https://restraunt-charity.vercel.app/story.html">Interactive Story</a> •
   <a href="#-features">Features</a> •
   <a href="#-ai-engine">AI Engine</a> •
   <a href="#-architecture">Architecture</a> •
@@ -42,6 +43,8 @@
 > The restaurant's carbon score updates: **-12kg CO₂**. The NGO's impact badge levels up. A customer who sponsored a "Ghost Meal" gets a notification that their meal fed someone tonight.
 >
 > **30 people eat. Zero food wasted. That is NextPlate.**
+> 
+> [**Experience the Interactive Journey →**](https://restraunt-charity.vercel.app/story.html)
 
 ---
 
@@ -599,12 +602,6 @@ All templates are responsive HTML with inline CSS, SendGrid + SMTP dual delivery
 ## 👥 Team
 
 Built with ❤️ by **Team NextPlate**
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
