@@ -1,0 +1,83 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* Uses proxy env variable no_proxy == '*.azureedge.net'
+* Host localhost:5000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:5000...
+*   Trying 127.0.0.1:5000...
+* Established connection to localhost (127.0.0.1 port 5000) from 127.0.0.1 port 63945 
+* using HTTP/1.x
+> POST /api/auth/register HTTP/1.1
+
+> Host: localhost:5000
+
+> User-Agent: curl/8.16.0
+
+> Accept: */*
+
+> Content-Type: application/json
+
+> Content-Length: 110
+
+> 
+
+} [110 bytes data]
+* upload completely sent off: 110 bytes
+< HTTP/1.1 400 Bad Request
+
+< Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+
+< Cross-Origin-Opener-Policy: same-origin
+
+< Cross-Origin-Resource-Policy: same-origin
+
+< Origin-Agent-Cluster: ?1
+
+< Referrer-Policy: no-referrer
+
+< Strict-Transport-Security: max-age=15552000; includeSubDomains
+
+< X-Content-Type-Options: nosniff
+
+< X-DNS-Prefetch-Control: off
+
+< X-Download-Options: noopen
+
+< X-Frame-Options: SAMEORIGIN
+
+< X-Permitted-Cross-Domain-Policies: none
+
+< X-XSS-Protection: 0
+
+< Vary: Origin
+
+< Access-Control-Allow-Credentials: true
+
+< X-RateLimit-Limit: 100
+
+< X-RateLimit-Remaining: 97
+
+< Date: Wed, 25 Feb 2026 20:29:34 GMT
+
+< X-RateLimit-Reset: 1772052210
+
+< Content-Type: application/json; charset=utf-8
+
+< Content-Length: 1280
+
+< ETag: W/"500-GZHjzzmcB4HZkXOQfhQk1mawRto"
+
+< Connection: keep-alive
+
+< Keep-Alive: timeout=5
+
+< 
+
+{ [1280 bytes data]
+
+100  1390  100  1280  100   110   5806    498 --:--:-- --:--:-- --:--:--  6318
+* Connection #0 to host localhost:5000 left intact
+{"code":400,"message":"Expected property name or '}' in JSON at position 1 (line 1 column 2)","stack":"SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\urjit upadhyay\\Dropbox (Old)\\PC\\Desktop\\Second Plate\\Restraunt_Charity\\backend\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\urjit upadhyay\\Dropbox (Old)\\PC\\Desktop\\Second Plate\\Restraunt_Charity\\backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\urjit upadhyay\\Dropbox (Old)\\PC\\Desktop\\Second Plate\\Restraunt_Charity\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\urjit upadhyay\\Dropbox (Old)\\PC\\Desktop\\Second Plate\\Restraunt_Charity\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\urjit upadhyay\\Dropbox (Old)\\PC\\Desktop\\Second Plate\\Restraunt_Charity\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}

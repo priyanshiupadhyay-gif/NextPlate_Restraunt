@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Brand Colors - Forest Green (from Flutter Second_Plate_app) */
+    --primary-dark: 156 28% 20%;
+    /* #1E3A30 - Forest Dark */
+    --primary-medium: 156 27% 27%;
+    /* #2D4A3E - Forest Green Primary */
+    --primary-light: 148 17% 42%;
+    /* #5C7A6B - Sage */
+    --primary-subtle: 138 20% 92%;
+    /* #E8F0EA - Primary Lighter */
+
+    /* Neutrals - Earthy Grey-Beige (from Flutter app) */
+    --neutral-900: 160 20% 12%;
+    /* #1B2E26 - Forest Dark Text */
+    --neutral-700: 30 10% 32%;
+    /* #544B3F - Gray 600 */
+    --neutral-500: 30 12% 44%;
+    /* #706555 - Gray 500 */
+    --neutral-300: 30 15% 70%;
+    /* #C4B8A8 - Gray 300 */
+    --neutral-100: 30 18% 90%;
+    /* #E8E0D5 - Gray 100 */
+    --neutral-50: 30 20% 95%;
+    /* #F5F1EB - Cream/Beige Bg */
+    --white: 0 0% 100%;
+    /* #FFFFFF */
+
+    /* Warm Accents (from Flutter app) */
+    --warm-beige: 30 20% 95%;
+    /* #F5F1EB - Cream Background */
+    --warm-sand: 30 18% 90%;
+    /* #E8E0D5 - Secondary Bg */
+    --warm-orange: 24 100% 70%;
+    /* #FF8A65 - Warm Orange Accent */
+    --warm-tan: 30 40% 64%;
+    /* #D4A373 - Earthy Tan Warning */
+
+    /* Semantic Colors - Muted Aesthetic (from Flutter app) */
+    --success: 148 17% 42%;
+    /* #5C7A6B - Sage */
+    --warning: 30 40% 64%;
+    /* #D4A373 - Earthy Tan */
+    --error: 0 30% 49%;
+    /* #9E5C5C - Muted Terracotta */
+    --info: 180 17% 42%;
+    /* #5C7A7A - Muted Teal */
+
+    /* Design Tokens - Synced with Flutter */
+    --background: 30 20% 95%;
+    /* #F5F1EB Cream */
+    --foreground: 160 20% 12%;
+    /* #1B2E26 Forest Dark */
+    --card: 0 0% 100%;
+    /* White */
+    --card-foreground: 160 20% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 20% 12%;
+    --primary: 156 27% 27%;
+    /* #2D4A3E Forest Green */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 18% 90%;
+    /* #E8E0D5 Warm Sand */
+    --secondary-foreground: 160 20% 12%;
+    --muted: 30 15% 70%;
+    /* #C4B8A8 */
+    --muted-foreground: 30 12% 44%;
+    /* #706555 */
+    --accent: 148 17% 42%;
+    /* #5C7A6B Sage */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 30% 49%;
+    /* #9E5C5C Terracotta */
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 18% 90%;
+    /* #E8E0D5 */
+    --input: 30 20% 95%;
+    /* #F5F1EB */
+    --ring: 156 27% 27%;
+    /* #2D4A3E */
+    --chart-1: 156 27% 27%;
+    /* Forest Green */
+    --chart-2: 148 17% 42%;
+    /* Sage */
+    --chart-3: 24 100% 70%;
+    /* Warm Orange */
+    --chart-4: 30 40% 64%;
+    /* Earthy Tan */
+    --chart-5: 0 30% 49%;
+    /* Terracotta */
+    --radius: 0.75rem;
+
+    /* Sidebar theming - Forest aesthetic */
+    --sidebar-background: 156 27% 27%;
+    /* Forest Green */
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 30 20% 95%;
+    /* Cream */
+    --sidebar-primary-foreground: 156 27% 27%;
+    --sidebar-accent: 156 28% 20%;
+    /* Forest Dark */
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 156 28% 20%;
+    --sidebar-ring: 148 17% 42%;
+    /* Sage */
+  }
+
+  .dark {
+    --background: 217 33% 11%;
+    --foreground: 210 40% 98%;
+    --card: 217 33% 17%;
+    --card-foreground: 210 40% 98%;
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 131 70% 59%;
+    --primary-foreground: 217 33% 11%;
+    --secondary: 217 33% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 25%;
+    --muted-foreground: 214 15% 65%;
+    --accent: 131 70% 59%;
+    --accent-foreground: 217 33% 11%;
+    --destructive: 0 91% 71%;
+    --destructive-foreground: 217 33% 11%;
+    --border: 217 33% 25%;
+    --input: 217 33% 20%;
+    --ring: 131 70% 59%;
+    --chart-1: 131 70% 59%;
+    --chart-2: 142 49% 34%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 160 84% 39%;
+    --chart-5: 45 97% 70%;
+    --sidebar-background: 217 33% 17%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 131 70% 59%;
+    --sidebar-primary-foreground: 217 33% 11%;
+    --sidebar-accent: 217 33% 25%;
+    --sidebar-accent-foreground: 131 70% 59%;
+    --sidebar-border: 217 33% 25%;
+    --sidebar-ring: 131 70% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Badge styles matching the design system */
+  .badge-active {
+    @apply bg-emerald-100 text-emerald-900;
+  }
+
+  .badge-pending {
+    @apply bg-yellow-100 text-yellow-900;
+  }
+
+  .badge-completed {
+    @apply bg-blue-100 text-blue-900;
+  }
+
+  .badge-rejected {
+    @apply bg-red-100 text-red-900;
+  }
+
+  .badge-low-stock {
+    @apply bg-orange-100 text-orange-900;
+  }
+
+  /* Card utilities */
+  .card-base {
+    @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border;
+  }
+
+  .card-elevated {
+    @apply bg-white rounded-lg shadow-lg border border-border;
+  }
+
+  /* Button base styles */
+  .btn-base {
+    @apply inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-primary-dark text-white hover:shadow-lg hover:-translate-y-0.5 px-6 py-3;
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-white text-primary-dark border-2 border-primary-dark hover:bg-primary-subtle px-6 py-3;
+  }
+
+  .btn-danger {
+    @apply btn-base bg-red-500 text-white hover:bg-red-600 px-6 py-3;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-neutral-700 hover:bg-neutral-100 px-6 py-3;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-primary-dark text-white hover:shadow-lg hover:-translate-y-0.5 px-6 py-3;
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-white text-primary-dark border-2 border-primary-dark hover:bg-primary-subtle px-6 py-3;
+  }
+
+  .btn-danger {
+    @apply btn-base bg-red-500 text-white hover:bg-red-600 px-6 py-3;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-neutral-700 hover:bg-neutral-100 px-6 py-3;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-gradient-to-br from-primary-medium to-primary-dark text-white hover:shadow-lg hover:-translate-y-0.5 px-6 py-3;
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-white text-primary-dark border-2 border-primary-dark hover:bg-primary-subtle px-6 py-3;
+  }
+
+  /* Custom gradient button for primary action */
+  .btn-primary-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary-medium)) 0%, hsl(var(--primary-dark)) 100%);
+  }
+
+  .btn-danger {
+    @apply btn-base bg-red-500 text-white hover:bg-red-600 px-6 py-3;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-neutral-700 hover:bg-neutral-100 px-6 py-3;
+  }
+
+  @keyframes progress-glow {
+
+    0%,
+    100% {
+      opacity: 0.5;
+      transform: translateX(-100%);
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateX(100%);
+    }
+  }
+
+  .animate-progress-glow {
+    animation: progress-glow 3s linear infinite;
+  }
+}

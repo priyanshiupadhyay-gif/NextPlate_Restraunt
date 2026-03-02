@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # ─── MongoDB ───
+  mongo:
+    image: mongo:7
+    container_name: nextplate-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: nextplate
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Backend API ───
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: nextplate-api
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+      MONGODB_URI: mongodb://mongo:27017/nextplate
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-nextplate-dev-access-secret-change-in-production}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-nextplate-dev-refresh-secret-change-in-production}
+      FRONTEND_URL: http://localhost:3000
+      GEMINI_API_KEY_CHAT: ${GEMINI_API_KEY_CHAT:-}
+      GEMINI_API_KEY_ANALYTICS: ${GEMINI_API_KEY_ANALYTICS:-}
+      GEMINI_API_KEY_VISION: ${GEMINI_API_KEY_VISION:-}
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  # ─── Frontend Dashboard ───
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    container_name: nextplate-dashboard
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:5000/api/v1
+    volumes:
+      - ./dashboard:/app
+      - /app/node_modules
+      - /app/.next
+
+volumes:
+  mongo-data:
+    driver: local

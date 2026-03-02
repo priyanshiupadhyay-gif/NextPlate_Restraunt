@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.dart_tool/
+build/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Lock files (track these for CI/CD)
+# package-lock.json (Keep this tracked)
+pnpm-lock.yaml
+pubspec.lock
+
+# Flutter build
+build/
+*.class
+*.dex
+*.ap_
+
+# Ephemeral plugin symlinks
+**/ephemeral/
+
+# Analysis files
+analysis*.txt
+telemetry-id

@@ -1,0 +1,439 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Fresh Roots Kitchen",
+      "description": "Farm-to-table American cuisine featuring fresh, locally sourced ingredients. Committed to zero food waste and community support.",
+      "cuisine": ["American", "Farm-to-Table", "Healthy"],
+      "address": {
+        "street": "450 W 33rd St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA",
+        "location": {
+          "type": "Point",
+          "coordinates": [-73.9976, 40.7484]
+        }
+      },
+      "operatingHours": {
+        "monday": { "open": "07:00", "close": "22:00", "isClosed": false },
+        "tuesday": { "open": "07:00", "close": "22:00", "isClosed": false },
+        "wednesday": { "open": "07:00", "close": "22:00", "isClosed": false },
+        "thursday": { "open": "07:00", "close": "23:00", "isClosed": false },
+        "friday": { "open": "07:00", "close": "23:00", "isClosed": false },
+        "saturday": { "open": "08:00", "close": "23:00", "isClosed": false },
+        "sunday": { "open": "08:00", "close": "21:00", "isClosed": false }
+      },
+      "contactPhone": "+1-212-555-0101",
+      "contactEmail": "contact@freshrootskitchen.com",
+      "images": ["https://example.com/freshroots1.jpg", "https://example.com/freshroots2.jpg"],
+      "logo": "https://example.com/freshroots-logo.png",
+      "documents": {
+        "businessLicense": "NYC-2024-001234",
+        "EIN": "12-3456789",
+        "healthPermit": "HP-NY-567890"
+      },
+      "packetLabel": "Truffle Mushroom Risotto",
+      "sectorModulation": "Mains",
+      "biologicalMarkers": ["Vegan", "Vegetarian", "Gluten-Free", "Low-Calorie"],
+      "packetInternalSchema": {
+        "category": "Main Course",
+        "subCategory": "Risotto",
+        "cuisineType": "Italian",
+        "preparationTime": "25 minutes",
+        "shelfLife": "3 hours",
+        "storageTemperature": "Hot Hold at 140°F+",
+        "servingSize": "Single Portion",
+        "packagingType": "Biodegradable Container",
+        "dietaryFlags": {
+          "vegan": true,
+          "vegetarian": true,
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "lowCalorie": true
+        },
+        "nutritionalInfo": {
+          "calories": 420,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "18g",
+          "fiber": "4g"
+        },
+        "allergens": ["Mushrooms", "Dairy"],
+        "carbonFootprint": {
+          "co2e": "0.8 kg",
+          "waterUsage": "800 liters"
+        }
+      },
+      "dishes_for_ngo": [
+        "Rice & Beans Bowl",
+        "Pasta Marinara",
+        "Vegetable Stir Fry + Rice",
+        "Chicken Fried Rice",
+        "Vegetable Soup",
+        "Grilled Cheese Sandwiches",
+        "Chicken Curry + Rice"
+      ],
+      "dishes_for_foodies": [
+        "Truffle Mushroom Risotto",
+        "Grilled Salmon with Asparagus",
+        "Korean BBQ Tacos",
+        "Lobster Mac & Cheese",
+        "Buddha Bowl",
+        "Wagyu Beef Sliders",
+        "Shrimp Pad Thai",
+        "Wild Mushroom Pizza"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Urban Harvest Grill",
+      "description": "Asian-Fusion restaurant combining traditional flavors with modern presentation. Known for bold spices and innovative dishes.",
+      "cuisine": ["Asian Fusion", "Chinese", "Japanese", "Korean"],
+      "address": {
+        "street": "1200 S Grand Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90015",
+        "country": "USA",
+        "location": {
+          "type": "Point",
+          "coordinates": [-118.2644, 34.0422]
+        }
+      },
+      "operatingHours": {
+        "monday": { "open": "11:00", "close": "22:00", "isClosed": false },
+        "tuesday": { "open": "11:00", "close": "22:00", "isClosed": false },
+        "wednesday": { "open": "11:00", "close": "22:00", "isClosed": false },
+        "thursday": { "open": "11:00", "close": "23:00", "isClosed": false },
+        "friday": { "open": "11:00", "close": "24:00", "isClosed": false },
+        "saturday": { "open": "12:00", "close": "24:00", "isClosed": false },
+        "sunday": { "open": "12:00", "close": "21:00", "isClosed": false }
+      },
+      "contactPhone": "+1-213-555-0202",
+      "contactEmail": "hello@urbanharvestgrill.com",
+      "images": ["https://example.com/urbanharvest1.jpg", "https://example.com/urbanharvest2.jpg"],
+      "logo": "https://example.com/urbanharvest-logo.png",
+      "documents": {
+        "businessLicense": "LA-2024-005678",
+        "EIN": "23-4567890",
+        "healthPermit": "HP-CA-901234"
+      },
+      "packetLabel": "Truffle Mushroom Risotto",
+      "sectorModulation": "Mains",
+      "biologicalMarkers": ["Vegan", "Vegetarian", "Gluten-Free", "Low-Calorie"],
+      "packetInternalSchema": {
+        "category": "Main Course",
+        "subCategory": "Risotto",
+        "cuisineType": "Italian",
+        "preparationTime": "25 minutes",
+        "shelfLife": "3 hours",
+        "storageTemperature": "Hot Hold at 140°F+",
+        "servingSize": "Single Portion",
+        "packagingType": "Biodegradable Container",
+        "dietaryFlags": {
+          "vegan": true,
+          "vegetarian": true,
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "lowCalorie": true
+        },
+        "nutritionalInfo": {
+          "calories": 420,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "18g",
+          "fiber": "4g"
+        },
+        "allergens": ["Mushrooms", "Dairy"],
+        "carbonFootprint": {
+          "co2e": "0.8 kg",
+          "waterUsage": "800 liters"
+        }
+      },
+      "dishes_for_ngo": [
+        "Rice & Beans Bowl",
+        "Pasta Marinara",
+        "Vegetable Stir Fry + Rice",
+        "Chicken Fried Rice",
+        "Vegetable Soup",
+        "Grilled Cheese Sandwiches",
+        "Chicken Curry + Rice"
+      ],
+      "dishes_for_foodies": [
+        "Truffle Mushroom Risotto",
+        "Grilled Salmon with Asparagus",
+        "Korean BBQ Tacos",
+        "Lobster Mac & Cheese",
+        "Buddha Bowl",
+        "Wagyu Beef Sliders",
+        "Shrimp Pad Thai",
+        "Wild Mushroom Pizza"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Green Plate Co.",
+      "description": "100% plant-based healthy eatery focused on sustainable living. Every meal contributes to reducing carbon footprint.",
+      "cuisine": ["Vegan", "Healthy", "Organic", "Vegetarian"],
+      "address": {
+        "street": "2301 S Martin Luther King Dr",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60616",
+        "country": "USA",
+        "location": {
+          "type": "Point",
+          "coordinates": [-87.6185, 41.8525]
+        }
+      },
+      "operatingHours": {
+        "monday": { "open": "06:30", "close": "21:00", "isClosed": false },
+        "tuesday": { "open": "06:30", "close": "21:00", "isClosed": false },
+        "wednesday": { "open": "06:30", "close": "21:00", "isClosed": false },
+        "thursday": { "open": "06:30", "close": "21:00", "isClosed": false },
+        "friday": { "open": "06:30", "close": "22:00", "isClosed": false },
+        "saturday": { "open": "07:00", "close": "22:00", "isClosed": false },
+        "sunday": { "open": "07:00", "close": "20:00", "isClosed": false }
+      },
+      "contactPhone": "+1-312-555-0303",
+      "contactEmail": "info@greenplateco.com",
+      "images": ["https://example.com/greenplate1.jpg", "https://example.com/greenplate2.jpg"],
+      "logo": "https://example.com/greenplate-logo.png",
+      "documents": {
+        "businessLicense": "CHI-2024-009012",
+        "EIN": "34-5678901",
+        "healthPermit": "HP-IL-345678"
+      },
+      "packetLabel": "Truffle Mushroom Risotto",
+      "sectorModulation": "Mains",
+      "biologicalMarkers": ["Vegan", "Vegetarian", "Gluten-Free", "Low-Calorie"],
+      "packetInternalSchema": {
+        "category": "Main Course",
+        "subCategory": "Risotto",
+        "cuisineType": "Italian",
+        "preparationTime": "25 minutes",
+        "shelfLife": "3 hours",
+        "storageTemperature": "Hot Hold at 140°F+",
+        "servingSize": "Single Portion",
+        "packagingType": "Biodegradable Container",
+        "dietaryFlags": {
+          "vegan": true,
+          "vegetarian": true,
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "lowCalorie": true
+        },
+        "nutritionalInfo": {
+          "calories": 420,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "18g",
+          "fiber": "4g"
+        },
+        "allergens": ["Mushrooms", "Dairy"],
+        "carbonFootprint": {
+          "co2e": "0.8 kg",
+          "waterUsage": "800 liters"
+        }
+      },
+      "dishes_for_ngo": [
+        "Rice & Beans Bowl",
+        "Pasta Marinara",
+        "Vegetable Stir Fry + Rice",
+        "Chicken Fried Rice",
+        "Vegetable Soup",
+        "Grilled Cheese Sandwiches",
+        "Chicken Curry + Rice"
+      ],
+      "dishes_for_foodies": [
+        "Truffle Mushroom Risotto",
+        "Grilled Salmon with Asparagus",
+        "Korean BBQ Tacos",
+        "Lobster Mac & Cheese",
+        "Buddha Bowl",
+        "Wagyu Beef Sliders",
+        "Shrimp Pad Thai",
+        "Wild Mushroom Pizza"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HomeTown Rescue",
+      "description": "Comfort food restaurant with a heart. Specializing in homestyle cooking and community feeding programs.",
+      "cuisine": ["American", "Comfort Food", "Southern", "BBQ"],
+      "address": {
+        "street": "1100 Congress Ave",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "78701",
+        "country": "USA",
+        "location": {
+          "type": "Point",
+          "coordinates": [-97.7431, 30.2749]
+        }
+      },
+      "operatingHours": {
+        "monday": { "open": "10:00", "close": "21:00", "isClosed": false },
+        "tuesday": { "open": "10:00", "close": "21:00", "isClosed": false },
+        "wednesday": { "open": "10:00", "close": "21:00", "isClosed": false },
+        "thursday": { "open": "10:00", "close": "22:00", "isClosed": false },
+        "friday": { "open": "10:00", "close": "23:00", "isClosed": false },
+        "saturday": { "open": "09:00", "close": "23:00", "isClosed": false },
+        "sunday": { "open": "09:00", "close": "20:00", "isClosed": false }
+      },
+      "contactPhone": "+1-512-555-0404",
+      "contactEmail": "support@hometownrescue.com",
+      "images": ["https://example.com/hometown1.jpg", "https://example.com/hometown2.jpg"],
+      "logo": "https://example.com/hometown-logo.png",
+      "documents": {
+        "businessLicense": "AUS-2024-003456",
+        "EIN": "45-6789012",
+        "healthPermit": "HP-TX-789012"
+      },
+      "packetLabel": "Truffle Mushroom Risotto",
+      "sectorModulation": "Mains",
+      "biologicalMarkers": ["Vegan", "Vegetarian", "Gluten-Free", "Low-Calorie"],
+      "packetInternalSchema": {
+        "category": "Main Course",
+        "subCategory": "Risotto",
+        "cuisineType": "Italian",
+        "preparationTime": "25 minutes",
+        "shelfLife": "3 hours",
+        "storageTemperature": "Hot Hold at 140°F+",
+        "servingSize": "Single Portion",
+        "packagingType": "Biodegradable Container",
+        "dietaryFlags": {
+          "vegan": true,
+          "vegetarian": true,
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "lowCalorie": true
+        },
+        "nutritionalInfo": {
+          "calories": 420,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "18g",
+          "fiber": "4g"
+        },
+        "allergens": ["Mushrooms", "Dairy"],
+        "carbonFootprint": {
+          "co2e": "0.8 kg",
+          "waterUsage": "800 liters"
+        }
+      },
+      "dishes_for_ngo": [
+        "Rice & Beans Bowl",
+        "Pasta Marinara",
+        "Vegetable Stir Fry + Rice",
+        "Chicken Fried Rice",
+        "Vegetable Soup",
+        "Grilled Cheese Sandwiches",
+        "Chicken Curry + Rice"
+      ],
+      "dishes_for_foodies": [
+        "Truffle Mushroom Risotto",
+        "Grilled Salmon with Asparagus",
+        "Korean BBQ Tacos",
+        "Lobster Mac & Cheese",
+        "Buddha Bowl",
+        "Wagyu Beef Sliders",
+        "Shrimp Pad Thai",
+        "Wild Mushroom Pizza"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nourish & Share",
+      "description": "Social enterprise restaurant where every meal served also feeds someone in need. Part of the zero-waste movement.",
+      "cuisine": ["Healthy", "International", "Mediterranean", "Organic"],
+      "address": {
+        "street": "500 Market St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA",
+        "location": {
+          "type": "Point",
+          "coordinates": [-122.4013, 37.7897]
+        }
+      },
+      "operatingHours": {
+        "monday": { "open": "07:00", "close": "20:00", "isClosed": false },
+        "tuesday": { "open": "07:00", "close": "20:00", "isClosed": false },
+        "wednesday": { "open": "07:00", "close": "20:00", "isClosed": false },
+        "thursday": { "open": "07:00", "close": "21:00", "isClosed": false },
+        "friday": { "open": "07:00", "close": "21:00", "isClosed": false },
+        "saturday": { "open": "08:00", "close": "21:00", "isClosed": false },
+        "sunday": { "open": "08:00", "close": "19:00", "isClosed": false }
+      },
+      "contactPhone": "+1-415-555-0505",
+      "contactEmail": "care@nourishandshare.org",
+      "images": ["https://example.com/nourish1.jpg", "https://example.com/nourish2.jpg"],
+      "logo": "https://example.com/nourish-logo.png",
+      "documents": {
+        "businessLicense": "SF-2024-007890",
+        "EIN": "56-7890123",
+        "healthPermit": "HP-SF-123456"
+      },
+      "packetLabel": "Truffle Mushroom Risotto",
+      "sectorModulation": "Mains",
+      "biologicalMarkers": ["Vegan", "Vegetarian", "Gluten-Free", "Low-Calorie"],
+      "packetInternalSchema": {
+        "category": "Main Course",
+        "subCategory": "Risotto",
+        "cuisineType": "Italian",
+        "preparationTime": "25 minutes",
+        "shelfLife": "3 hours",
+        "storageTemperature": "Hot Hold at 140°F+",
+        "servingSize": "Single Portion",
+        "packagingType": "Biodegradable Container",
+        "dietaryFlags": {
+          "vegan": true,
+          "vegetarian": true,
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "lowCalorie": true
+        },
+        "nutritionalInfo": {
+          "calories": 420,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "18g",
+          "fiber": "4g"
+        },
+        "allergens": ["Mushrooms", "Dairy"],
+        "carbonFootprint": {
+          "co2e": "0.8 kg",
+          "waterUsage": "800 liters"
+        }
+      },
+      "dishes_for_ngo": [
+        "Rice & Beans Bowl",
+        "Pasta Marinara",
+        "Vegetable Stir Fry + Rice",
+        "Chicken Fried Rice",
+        "Vegetable Soup",
+        "Grilled Cheese Sandwiches",
+        "Chicken Curry + Rice"
+      ],
+      "dishes_for_foodies": [
+        "Truffle Mushroom Risotto",
+        "Grilled Salmon with Asparagus",
+        "Korean BBQ Tacos",
+        "Lobster Mac & Cheese",
+        "Buddha Bowl",
+        "Wagyu Beef Sliders",
+        "Shrimp Pad Thai",
+        "Wild Mushroom Pizza"
+      ]
+    }
+  ]
+}

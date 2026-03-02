@@ -1,0 +1,231 @@
+================================================================================
+                    NEXTPLATE SAMPLE RESTAURANT DATA
+           COMPLETE REGISTRATION FIELDS FOR ALL 5 RESTAURANTS
+================================================================================
+
+================================================================================
+RESTAURANT 1
+================================================================================
+
+NAME:               Fresh Roots Kitchen
+DESCRIPTION:        Farm-to-table American cuisine featuring fresh, locally sourced
+                    ingredients. Committed to zero food waste and community support.
+CUISINE:            American, Farm-to-Table, Healthy
+ADDRESS:            450 W 33rd St, New York, NY 10001, USA
+PHONE:              +1-212-555-0101
+EMAIL:              contact@freshrootskitchen.com
+
+OPERATING HOURS:
+  Monday:    07:00 - 22:00
+  Tuesday:   07:00 - 22:00
+  Wednesday: 07:00 - 22:00
+  Thursday:  07:00 - 23:00
+  Friday:    07:00 - 23:00
+  Saturday:  08:00 - 23:00
+  Sunday:    08:00 - 21:00
+
+DOCUMENTS:
+  Business License:  NYC-2024-001234
+  EIN:               12-3456789
+  Health Permit:     HP-NY-567890
+
+NGO DISHES:
+  1. Rice & Beans Bowl
+  2. Pasta Marinara
+  3. Vegetable Stir Fry + Rice
+  4. Chicken Fried Rice
+  5. Vegetable Soup
+  6. Grilled Cheese Sandwiches
+  7. Chicken Curry + Rice
+
+FOODIE DISHES:
+  1. Truffle Mushroom Risotto
+  2. Grilled Salmon with Asparagus
+  3. Korean BBQ Tacos
+  4. Lobster Mac & Cheese
+  5. Buddha Bowl
+  6. Wagyu Beef Sliders
+  7. Shrimp Pad Thai
+  8. Wild Mushroom Pizza
+
+================================================================================
+RESTAURANT 2
+================================================================================
+
+NAME:               Urban Harvest Grill
+DESCRIPTION:        Asian-Fusion restaurant combining traditional flavors with modern
+                    presentation. Known for bold spices and innovative dishes.
+CUISINE:            Asian Fusion, Chinese, Japanese, Korean
+ADDRESS:            1200 S Grand Ave, Los Angeles, CA 90015, USA
+PHONE:              +1-213-555-0202
+EMAIL:              hello@urbanharvestgrill.com
+
+OPERATING HOURS:
+  Monday:    11:00 - 22:00
+  Tuesday:   11:00 - 22:00
+  Wednesday: 11:00 - 22:00
+  Thursday:  11:00 - 23:00
+  Friday:    11:00 - 24:00
+  Saturday:  12:00 - 24:00
+  Sunday:    12:00 - 21:00
+
+DOCUMENTS:
+  Business License:  LA-2024-005678
+  EIN:               23-4567890
+  Health Permit:     HP-CA-901234
+
+NGO DISHES:
+  1. Rice & Beans Bowl
+  2. Pasta Marinara
+  3. Vegetable Stir Fry + Rice
+  4. Chicken Fried Rice
+  5. Vegetable Soup
+  6. Grilled Cheese Sandwiches
+  7. Chicken Curry + Rice
+
+FOODIE DISHES:
+  1. Truffle Mushroom Risotto
+  2. Grilled Salmon with Asparagus
+  3. Korean BBQ Tacos
+  4. Lobster Mac & Cheese
+  5. Buddha Bowl
+  6. Wagyu Beef Sliders
+  7. Shrimp Pad Thai
+  8. Wild Mushroom Pizza
+
+================================================================================
+RESTAURANT 3
+================================================================================
+
+NAME:               Green Plate Co.
+DESCRIPTION:        100% plant-based healthy eatery focused on sustainable living.
+                    Every meal contributes to reducing carbon footprint.
+CUISINE:            Vegan, Healthy, Organic, Vegetarian
+ADDRESS:            2301 S Martin Luther King Dr, Chicago, IL 60616, USA
+PHONE:              +1-312-555-0303
+EMAIL:              info@greenplateco.com
+
+OPERATING HOURS:
+  Monday:    06:30 - 21:00
+  Tuesday:   06:30 - 21:00
+  Wednesday: 06:30 - 21:00
+  Thursday:  06:30 - 21:00
+  Friday:    06:30 - 22:00
+  Saturday:  07:00 - 22:00
+  Sunday:    07:00 - 20:00
+
+DOCUMENTS:
+  Business License:  CHI-2024-009012
+  EIN:               34-5678901
+  Health Permit:     HP-IL-345678
+
+NGO DISHES:
+  1. Rice & Beans Bowl
+  2. Pasta Marinara
+  3. Vegetable Stir Fry + Rice
+  4. Chicken Fried Rice
+  5. Vegetable Soup
+  6. Grilled Cheese Sandwiches
+  7. Chicken Curry + Rice
+
+FOODIE DISHES:
+  1. Truffle Mushroom Risotto
+  2. Grilled Salmon with Asparagus
+  3. Korean BBQ Tacos
+  4. Lobster Mac & Cheese
+  5. Buddha Bowl
+  6. Wagyu Beef Sliders
+  7. Shrimp Pad Thai
+  8. Wild Mushroom Pizza
+
+================================================================================
+RESTAURANT 4
+================================================================================
+
+NAME:               HomeTown Rescue
+DESCRIPTION:        Comfort food restaurant with a heart. Specializing in homestyle
+                    cooking and community feeding programs.
+CUISINE:            American, Comfort Food, Southern, BBQ
+ADDRESS:            1100 Congress Ave, Austin, TX 78701, USA
+PHONE:              +1-512-555-0404
+EMAIL:              support@hometownrescue.com
+
+OPERATING HOURS:
+  Monday:    10:00 - 21:00
+  Tuesday:   10:00 - 21:00
+  Wednesday: 10:00 - 21:00
+  Thursday:  10:00 - 22:00
+  Friday:    10:00 - 23:00
+  Saturday:  09:00 - 23:00
+  Sunday:    09:00 - 20:00
+
+DOCUMENTS:
+  Business License:  AUS-2024-003456
+  EIN:               45-6789012
+  Health Permit:     HP-TX-789012
+
+NGO DISHES:
+  1. Rice & Beans Bowl
+  2. Pasta Marinara
+  3. Vegetable Stir Fry + Rice
+  4. Chicken Fried Rice
+  5. Vegetable Soup
+  6. Grilled Cheese Sandwiches
+  7. Chicken Curry + Rice
+
+FOODIE DISHES:
+  1. Truffle Mushroom Risotto
+  2. Grilled Salmon with Asparagus
+  3. Korean BBQ Tacos
+  4. Lobster Mac & Cheese
+  5. Buddha Bowl
+  6. Wagyu Beef Sliders
+  7. Shrimp Pad Thai
+  8. Wild Mushroom Pizza
+
+================================================================================
+RESTAURANT 5
+================================================================================
+
+NAME:               Nourish & Share
+DESCRIPTION:        Social enterprise restaurant where every meal served also feeds
+                    someone in need. Part of the zero-waste movement.
+CUISINE:            Healthy, International, Mediterranean, Organic
+ADDRESS:            500 Market St, San Francisco, CA 94105, USA
+PHONE:              +1-415-555-0505
+EMAIL:              care@nourishandshare.org
+
+OPERATING HOURS:
+  Monday:    07:00 - 20:00
+  Tuesday:   07:00 - 20:00
+  Wednesday: 07:00 - 20:00
+  Thursday:  07:00 - 21:00
+  Friday:    07:00 - 21:00
+  Saturday:  08:00 - 21:00
+  Sunday:    08:00 - 19:00
+
+DOCUMENTS:
+  Business License:  SF-2024-007890
+  EIN:               56-7890123
+  Health Permit:     HP-SF-123456
+
+NGO DISHES:
+  1. Rice & Beans Bowl
+  2. Pasta Marinara
+  3. Vegetable Stir Fry + Rice
+  4. Chicken Fried Rice
+  5. Vegetable Soup
+  6. Grilled Cheese Sandwiches
+  7. Chicken Curry + Rice
+
+FOODIE DISHES:
+  1. Truffle Mushroom Risotto
+  2. Grilled Salmon with Asparagus
+  3. Korean BBQ Tacos
+  4. Lobster Mac & Cheese
+  5. Buddha Bowl
+  6. Wagyu Beef Sliders
+  7. Shrimp Pad Thai
+  8. Wild Mushroom Pizza
+
+================================================================================

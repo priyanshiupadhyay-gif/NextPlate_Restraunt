@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - NextPlate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #0A0A0A;
+            color: #FFFFFF;
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-orange-600/10 blur-[100px] rounded-full"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-600/10 blur-[100px] rounded-full"></div>
+    
+    <div class="text-center space-y-12">
+        <div class="relative inline-block">
+            <img src="/thanks-visual.png" class="w-[500px] h-[350px] object-cover rounded-[64px] border border-white/10 shadow-2xl relative z-10">
+            <div class="absolute -top-8 -right-8 bg-emerald-500 text-white px-6 py-2 rounded-2xl text-[10px] font-black tracking-widest uppercase">IMPACT: ZERO WASTE</div>
+        </div>
+        
+        <div class="space-y-4">
+            <h1 class="text-[120px] font-black leading-none tracking-tighter text-glow m-0 uppercase">
+                THANK <span class="text-orange-600">YOU</span>
+            </h1>
+            <p class="text-white/40 font-black uppercase tracking-[0.6em] text-xs">
+                Mission Accomplished • Zero Hunger, Zero Waste.
+            </p>
+        </div>
+        
+        <div class="pt-8 flex items-center justify-center gap-12 text-white/60">
+            <div class="flex flex-col items-center gap-2">
+                <div class="text-orange-500 text-3xl font-black italic">NextPlate</div>
+                <div class="text-[9px] uppercase tracking-[0.5em] font-black">RescueAI Platform</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

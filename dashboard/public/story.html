@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NextPlate — The Story</title>
+  <meta name="description"
+    content="Every night, enough food to feed a city gets thrown away. We built NextPlate to stop that.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- Grain Overlay -->
+  <svg id="grain" width="0" height="0">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+    </filter>
+  </svg>
+  <div id="grain-overlay"></div>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav id="story-nav">
+    <a href="/story.html" class="nav-brand" style="text-decoration: none; color: inherit;">
+      <span class="logo-emoji">🍽️</span>
+      <span class="logo-text">NextPlate</span>
+    </a>
+    <div class="nav-links">
+      <a href="/login" class="nav-link">Login</a>
+      <a href="/register" class="nav-cta">Join Grid</a>
+    </div>
+  </nav>
+
+  <!-- ═══ CHAPTER 0 — HERO ═══ -->
+  <section class="chapter" id="ch0" data-mood="dark">
+    <div class="ch-inner">
+      <p class="ch0-eyebrow">THE NEXTPLATE STORY</p>
+      <h1 class="ch0-title">Every Night,<br>Enough Food to Feed a City<br><em>Gets Thrown Away.</em></h1>
+      <p class="ch0-sub">We built NextPlate to stop that.</p>
+      <div class="scroll-cue"><span class="scroll-dot"></span>Scroll to begin</div>
+    </div>
+    <div id="food-emojis"></div>
+  </section>
+
+  <!-- ═══ CHAPTER 1 — THE PROBLEM ═══ -->
+  <section class="chapter" id="ch1" data-mood="cream">
+    <div class="ch-inner">
+      <h2 class="ch-heading">The Waste Is Invisible.<br><em>The Hunger Isn't.</em></h2>
+      <div class="counters">
+        <div class="counter-card" data-target="40" data-suffix="%">
+          <span class="counter-icon">🗑️</span>
+          <span class="counter-num">0</span><span class="counter-suf">%</span>
+          <p>of food produced globally is wasted</p>
+        </div>
+        <div class="counter-card" data-target="828" data-suffix="M">
+          <span class="counter-icon">🍽️</span>
+          <span class="counter-num">0</span><span class="counter-suf">M</span>
+          <p>people go to sleep hungry tonight</p>
+        </div>
+        <div class="counter-card" data-target="1" data-suffix="">
+          <span class="counter-icon">📍</span>
+          <span class="counter-num counter-static">Both</span><span class="counter-suf"></span>
+          <p>exist in the same city. Sometimes the same street.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CHAPTER 2 — THREE PLAYERS ═══ -->
+  <section class="chapter" id="ch2" data-mood="warm">
+    <div class="ch-inner">
+      <h2 class="ch-heading">Three Players.<br><em>One Network.</em></h2>
+      <div class="players">
+        <div class="player-card anim-in">
+          <span class="player-emoji">🏪</span>
+          <h3>Restaurants</h3>
+          <p>You cooked too much. List it. Don't bin it.</p>
+        </div>
+        <div class="player-card anim-in">
+          <span class="player-emoji">🤝</span>
+          <h3>NGOs</h3>
+          <p>Claim donations. Feed communities. Zero cost.</p>
+        </div>
+        <div class="player-card anim-in">
+          <span class="player-emoji">👤</span>
+          <h3>You</h3>
+          <p>Eat well. Spend less. Waste nothing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CHAPTER 3 — HOW IT WORKS ═══ -->
+  <section class="chapter" id="ch3" data-mood="green">
+    <div class="ch-inner">
+      <h2 class="ch-heading" style="color:#fff">60 Seconds<br><em>to Save a Meal.</em></h2>
+      <div class="timeline">
+        <div class="tl-step anim-in">
+          <div class="tl-num">1</div>
+          <div class="tl-content">
+            <h4>Restaurant Lists Surplus</h4>
+            <p>Photo + quantity + pickup window — 60 seconds.</p>
+          </div>
+        </div>
+        <div class="tl-step anim-in">
+          <div class="tl-num">2</div>
+          <div class="tl-content">
+            <h4>NGOs Claim Free, Customers Buy</h4>
+            <p>40–70% off for customers. ₹0 for verified NGOs.</p>
+          </div>
+        </div>
+        <div class="tl-step anim-in">
+          <div class="tl-num">3</div>
+          <div class="tl-content">
+            <h4>QR Pickup Verification</h4>
+            <p>Show code. Collect food. Done.</p>
+          </div>
+        </div>
+        <div class="tl-step anim-in">
+          <div class="tl-num">4</div>
+          <div class="tl-content">
+            <h4>Impact Tracked</h4>
+            <p>Carbon saved. Water preserved. Story told.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CHAPTER 4 — IMPACT LEDGER ═══ -->
+  <section class="chapter" id="ch4" data-mood="dark">
+    <div class="ch-inner">
+      <h2 class="ch-heading" style="color:var(--gold)">Every Plate<br><em>Has a Story.</em></h2>
+      <div class="impact-nums">
+        <div class="impact-card"><span class="impact-icon">🍽️</span><span class="impact-val"
+            data-target="12847">0</span>
+          <p>Meals Rescued</p>
+        </div>
+        <div class="impact-card"><span class="impact-icon">🌿</span><span class="impact-val" data-target="4203">0</span>
+          <p>kg CO₂ Saved</p>
+        </div>
+        <div class="impact-card"><span class="impact-icon">💧</span><span class="impact-val"
+            data-target="12400">0</span>
+          <p>kL Water Preserved</p>
+        </div>
+      </div>
+      <canvas id="mesh-canvas"></canvas>
+    </div>
+  </section>
+
+  <!-- ═══ CHAPTER 5 — MANIFESTO ═══ -->
+  <section class="chapter" id="ch5" data-mood="cream">
+    <div class="ch-inner manifesto-wrap">
+      <div class="manifesto-line anim-in">We believe that throwing away food while people go hungry</div>
+      <div class="manifesto-line anim-in">is not a supply chain problem.</div>
+      <div class="manifesto-line anim-in"><em>It's a coordination problem.</em></div>
+      <div class="manifesto-line anim-in">And coordination problems are exactly what software is for.</div>
+      <div class="manifesto-line anim-in manifesto-break">&nbsp;</div>
+      <div class="manifesto-line anim-in"><strong>NextPlate is our answer.</strong></div>
+      <div class="manifesto-line anim-in">One city at a time.</div>
+      <div class="manifesto-line anim-in">One plate at a time.</div>
+    </div>
+    <div id="manifesto-bg-food"></div>
+  </section>
+
+  <!-- ═══ CHAPTER 6 — CTA ═══ -->
+  <section class="chapter" id="ch6" data-mood="fire">
+    <div class="ch-inner">
+      <h2 class="ch-heading" style="color:#fff">Join the<br><em>Rescue.</em></h2>
+      <div class="cta-buttons">
+        <a href="/register" class="cta-btn"><span>🏪</span>I'm a Restaurant</a>
+        <a href="/register" class="cta-btn"><span>🤝</span>I'm an NGO</a>
+        <a href="/register" class="cta-btn"><span>👤</span>I Want to Buy</a>
+      </div>
+      <p class="cta-footer">Built in 72 hours for <strong>sudo make world</strong> hackathon.<br>Open source. MIT
+        License.</p>
+    </div>
+  </section>
+
+  <!-- ═══ STITCH AI ═══ -->
+  <div id="stitch">
+    <div id="stitch-label">Stitch AI</div>
+    <div id="stitch-orb"></div>
+    <div id="stitch-bubble">
+      <p id="stitch-text"></p>
+    </div>
+  </div>
+
+  <script src="story.js"></script>
+</body>
+
+</html>
